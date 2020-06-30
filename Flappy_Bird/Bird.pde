@@ -35,6 +35,7 @@ class Bird {
     }
     
     if(pos.y < 0){
+      pos.y = 0;    
       vel = 0;
     }
   }
